@@ -1,0 +1,35 @@
+{
+  "project": "Mini Project 02 - Airport BST",
+  "student": "Xiaoxing Tong",
+  "verification_date": "2026-11-01",
+  "fictional_airport": {
+    "code": "QQQ",
+    "name": "Xiaoxing Tong Airport",
+    "city": "Shanghai",
+    "country": "China"
+  },
+  "input_sha256": {
+    "MiniProject_Airport_BST.pdf": "4a0e998000231de1e4a57d0a40b45a575e196ea394f4dcd4cc37f63ea93d3705",
+    "airports.dat": "9387cdb38df5bd664da823f8ccb69fdd9b33a1888f5b7cca09c34a3cd9ff59f9",
+    "airports.csv": "7b5cf59ebf707f2229b7c42dea44dc3c9d623eec5252383b0c9889b186a135dc"
+  },
+  "compiler": "GCC 16.2.0",
+  "flags": "-std=c++17 -O2 -Wall -Wextra -Wpedantic",
+  "test_checks": 181370,
+  "post_mutation_validations": 45542,
+  "dataset_records": 6072,
+  "skipped_missing_iata": 1626,
+  "duplicates": 0,
+  "range_BOS_BWI": {
+    "results": 113,
+    "visited": 127
+  },
+  "tree_heights": {
+    "File order": 177,
+    "Sorted order": 6071,
+    "Balanced": 12,
+    "Random shuffle": 28
+  },
+  "benchmark": "10,000 shared seed-2026 successful queries; median of 7 timed batches after warm-up",
+  "publication": "Student will create and publish the public GitHub repository."
+}

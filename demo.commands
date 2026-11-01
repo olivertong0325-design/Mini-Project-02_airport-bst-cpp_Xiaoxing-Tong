@@ -1,0 +1,13 @@
+load data/airports.dat
+find BOS
+find XYZ
+range BOS BWI
+remove AEY
+validate
+add QQQ "Xiaoxing Tong Airport" "Shanghai" "China" ZQQQ 31.2304 121.4737
+find QQQ
+remove QQQ
+save docs/demo.preorder
+load docs/demo.preorder
+rebalance
+quit

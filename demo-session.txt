@@ -1,0 +1,166 @@
+> load data/airports.dat
+Loaded 6072 airports (1626 lines skipped: no IATA code). Duplicates: 0
+Airports: 6072  Height: 177  Average depth: 18.3233
+Countries: 235  United States: 1251
+> find BOS
+Path: GKA -> AEY -> EGS -> BUJ -> BJA -> BSK -> BOY -> BNI -> BOH -> BOO -> BOU -> BOS (comparisons: 12)
+BOS  General Edward Lawrence Logan International Airport, Boston, United States | ICAO: KBOS | 42.364300, -71.005203
+> find XYZ
+Path: GKA -> MAG -> POM -> WWK -> YAM -> XFW -> XGN -> XLS -> XRY -> XVS -> YAI -> YAA -> XYA -> XYE -> (NULL) (comparisons: 14)
+XYZ not found
+> range BOS BWI
+BOS  General Edward Lawrence Logan International Airport, Boston, United States | ICAO: KBOS | 42.364300, -71.005203
+BOU  Bourges Airport, Bourges, France | ICAO: LFLD | 47.058102, 2.370280
+BOW  Bartow Municipal Airport, Bartow, United States | ICAO: KBOW | 27.943399, -81.783401
+BOX  Borroloola Airport, Borroloola, Australia | ICAO: YBRL | -16.075300, 136.302002
+BOY  Bobo Dioulasso Airport, Bobo-dioulasso, Burkina Faso | ICAO: DFOO | 11.160100, -4.330970
+BPC  Bamenda Airport, Bamenda, Cameroon | ICAO: FKKV | 6.039240, 10.122600
+BPE  Qinhuangdao Beidaihe Airport, Bagan, Burma | ICAO: ZBDH | 39.666389, 119.058889
+BPF  Batuna Aerodrome, Batuna, Solomon Islands | ICAO: AGBT | -8.562028, 158.119306
+BPG  Barra do Garças Airport, Barra Do Garcas, Brazil | ICAO: SBBW | -15.861300, -52.388901
+BPH  Bislig Airport, , Philippines | ICAO: RPMF | 8.195950, 126.321999
+BPI  Miley Memorial Field, Big Piney, United States | ICAO: KBPI | 42.585098, -110.111000
+BPL  Alashankou Bole (Bortala) airport, Bole, China | ICAO: ZWAX | 44.895000, 82.300000
+BPM  Begumpet Airport, Hyderabad, India | ICAO: VOHY | 17.453100, 78.467598
+BPN  Sultan Aji Muhamad Sulaiman Airport, Balikpapan, Indonesia | ICAO: WALL | -1.268270, 116.893997
+BPS  Porto Seguro Airport, Porto Seguro, Brazil | ICAO: SBPS | -16.438601, -39.080898
+BPT  Southeast Texas Regional Airport, Beaumont, United States | ICAO: KBPT | 29.950800, -94.020699
+BPX  Qamdo Bangda Airport, Bangda, China | ICAO: ZUBD | 30.553600, 97.108299
+BPY  Besalampy Airport, Besalampy, Madagascar | ICAO: FMNQ | -16.744530, 44.482484
+BQA  Dr.Juan C. Angara Airport, Baler, Philippines | ICAO: RPUR | 15.729309, 121.500034
+BQB  Busselton Regional Airport, Brusselton, Australia | ICAO: YBLN | -33.688423, 115.401596
+BQE  Bubaque Airport, Bubaque, Guinea-Bissau | ICAO: GGBU | 11.297356, -15.838079
+BQG  Bogorodskoye Airport, Bogorodskoe, Russia | ICAO: UHNB | 52.380000, 140.448000
+BQH  London Biggin Hill Airport, Biggin Hill, United Kingdom | ICAO: EGKB | 51.330799, 0.032500
+BQJ  Batagay Airport, Batagay, Russia | ICAO: UEBB | 67.648003, 134.695007
+BQK  Brunswick Golden Isles Airport, Brunswick, United States | ICAO: KBQK | 31.258801, -81.466499
+BQL  Boulia Airport, Boulia, Australia | ICAO: YBOU | -22.913300, 139.899994
+BQN  Rafael Hernandez Airport, Aguadilla, Puerto Rico | ICAO: TJBQ | 18.494900, -67.129402
+BQS  Ignatyevo Airport, Blagoveschensk, Russia | ICAO: UHBB | 50.425400, 127.412003
+BQT  Brest Airport, Brest, Belarus | ICAO: UMBB | 52.108299, 23.898100
+BQU  J F Mitchell Airport, Bequia, Saint Vincent and the Grenadines | ICAO: TVSB | 12.988400, -61.262001
+BRA  Barreiras Airport, Barreiras, Brazil | ICAO: SNBR | -12.078900, -45.008999
+BRC  San Carlos De Bariloche Airport, San Carlos De Bariloche, Argentina | ICAO: SAZS | -41.151199, -71.157501
+BRD  Brainerd Lakes Regional Airport, Brainerd, United States | ICAO: KBRD | 46.398300, -94.138100
+BRE  Bremen Airport, Bremen, Germany | ICAO: EDDW | 53.047501, 8.786670
+BRI  Bari Karol Wojtyła Airport, Bari, Italy | ICAO: LIBD | 41.138901, 16.760599
+BRK  Bourke Airport, Bourke, Australia | ICAO: YBKE | -30.039200, 145.951996
+BRL  Southeast Iowa Regional Airport, Burlington, United States | ICAO: KBRL | 40.783199, -91.125504
+BRM  Barquisimeto International Airport, Barquisimeto, Venezuela | ICAO: SVBM | 10.042747, -69.358620
+BRN  Bern Belp Airport, Bern, Switzerland | ICAO: LSZB | 46.914101, 7.497150
+BRO  Brownsville South Padre Island International Airport, Brownsville, United States | ICAO: KBRO | 25.906799, -97.425903
+BRQ  Brno-Tuřany Airport, Brno, Czech Republic | ICAO: LKTB | 49.151299, 16.694401
+BRR  Barra Airport, Barra, United Kingdom | ICAO: EGPR | 57.022800, -7.443060
+BRS  Bristol Airport, Bristol, United Kingdom | ICAO: EGGD | 51.382702, -2.719090
+BRT  Bathurst Island Airport, Bathurst Island, Australia | ICAO: YBTI | -11.769200, 130.619995
+BRU  Brussels Airport, Brussels, Belgium | ICAO: EBBR | 50.901402, 4.484440
+BRV  Bremerhaven Airport, Bremerhaven, Germany | ICAO: EDWB | 53.506943, 8.572778
+BRW  Wiley Post Will Rogers Memorial Airport, Barrow, United States | ICAO: PABR | 71.285402, -156.766008
+BRX  Maria Montez International Airport, Barahona, Dominican Republic | ICAO: MDBH | 18.251499, -71.120399
+BSA  Bosaso Airport, Bosaso, Somalia | ICAO: HCMF | 11.275300, 49.149399
+BSB  Presidente Juscelino Kubistschek International Airport, Brasilia, Brazil | ICAO: SBBR | -15.869167, -47.920834
+BSC  José Celestino Mutis Airport, Bahia Solano, Colombia | ICAO: SKBS | 6.202920, -77.394700
+BSD  Baoshan Yunduan Airport, Baoshan, China | ICAO: ZPBS | 25.053301, 99.168297
+BSF  Bradshaw Army Airfield, Bradshaw Field, United States | ICAO: PHSF | 19.760099, -155.554001
+BSG  Bata Airport, Bata, Equatorial Guinea | ICAO: FGBT | 1.905470, 9.805680
+BSJ  Bairnsdale Airport, Bairnsdale, Australia | ICAO: YBNS | -37.887501, 147.567993
+BSK  Biskra Airport, Biskra, Algeria | ICAO: DAUB | 34.793301, 5.738230
+BSL  EuroAirport Basel-Mulhouse-Freiburg Airport, Mulhouse, France | ICAO: LFSB | 47.590000, 7.529167
+BSO  Basco Airport, Basco, Philippines | ICAO: RPUO | 20.451300, 121.980003
+BSR  Basrah International Airport, Basrah, Iraq | ICAO: ORMM | 30.549101, 47.662102
+BST  Bost Airport, Lashkar Gah, Afghanistan | ICAO: OABT | 31.559700, 64.364998
+BSU  Basankusu Airport, Basankusu, Congo (Kinshasa) | ICAO: FZEN | 1.224720, 19.788900
+BSX  Pathein Airport, Pathein, Burma | ICAO: VYPN | 16.815201, 94.779900
+BTC  Batticaloa Airport, Batticaloa, Sri Lanka | ICAO: VCCB | 7.705760, 81.678802
+BTE  Sherbro International Airport, Bonthe, Sierra Leone | ICAO: GFBN | 7.532420, -12.518900
+BTH  Hang Nadim International Airport, Batam, Indonesia | ICAO: WIDD | 1.121030, 104.119003
+BTI  Barter Island LRRS Airport, Barter Island, United States | ICAO: PABA | 70.134003, -143.582001
+BTJ  Sultan Iskandar Muda International Airport, Banda Aceh, Indonesia | ICAO: WITT | 5.522872, 95.420637
+BTK  Bratsk Airport, Bratsk, Russia | ICAO: UIBB | 56.370602, 101.697998
+BTL  W K Kellogg Airport, Battle Creek, United States | ICAO: KBTL | 42.307301, -85.251503
+BTM  Bert Mooney Airport, Butte, United States | ICAO: KBTM | 45.954800, -112.497002
+BTR  Baton Rouge Metropolitan Airport, Baton Rouge, United States | ICAO: KBTR | 30.533199, -91.149597
+BTS  M. R. Štefánik Airport, Bratislava, Slovakia | ICAO: LZIB | 48.170200, 17.212700
+BTT  Bettles Airport, Bettles, United States | ICAO: PABT | 66.913902, -151.529007
+BTU  Bintulu Airport, Bintulu, Malaysia | ICAO: WBGB | 3.123850, 113.019997
+BTV  Burlington International Airport, Burlington, United States | ICAO: KBTV | 44.471901, -73.153297
+BTW  Batu Licin Airport, Batu Licin, Indonesia | ICAO: WAOC | -3.412410, 115.995003
+BTZ  Bursa Airport, Bursa, Turkey | ICAO: LTBE | 40.233299, 29.009199
+BUA  Buka Airport, Buka Island, Papua New Guinea | ICAO: AYBK | -5.422320, 154.673004
+BUC  Burketown Airport, Burketown, Australia | ICAO: YBKT | -17.748600, 139.533997
+BUD  Budapest Liszt Ferenc International Airport, Budapest, Hungary | ICAO: LHBP | 47.429760, 19.261093
+BUF  Buffalo Niagara International Airport, Buffalo, United States | ICAO: KBUF | 42.940498, -78.732201
+BUG  Benguela Airport, Benguela, Angola | ICAO: FNBG | -12.609000, 13.403700
+BUI  Bokondini Airport, Bokondini-Papua Island, Indonesia | ICAO: WAJB | -3.682200, 138.675500
+BUJ  Bou Saada Airport, Bou Saada, Algeria | ICAO: DAAD | 35.332500, 4.206390
+BUL  Bulolo Airport, Bulolo, Papua New Guinea | ICAO: AYBU | -7.216287, 146.649542
+BUN  Gerardo Tobar López Airport, Buenaventura, Colombia | ICAO: SKBU | 3.819630, -76.989800
+BUO  Burao Airport, Burao, Somalia | ICAO: HCMV | 9.527500, 45.554900
+BUP  Bhatinda Air Force Station, Bhatinda, India | ICAO: VIBT | 30.270100, 74.755798
+BUQ  Joshua Mqabuko Nkomo International Airport, Bulawayo, Zimbabwe | ICAO: FVBU | -20.017401, 28.617901
+BUR  Bob Hope Airport, Burbank, United States | ICAO: KBUR | 34.200699, -118.359001
+BUS  Batumi International Airport, Batumi, Georgia | ICAO: UGSB | 41.610298, 41.599701
+BUT  Bathpalathang Airport, Jakar, Bhutan | ICAO: VQBT | 27.562200, 90.747100
+BUU  Muara Bungo Airport, Muara Bungo, Indonesia | ICAO: WIPI | -1.127800, 102.135000
+BUW  Betoambari Airport, Bau-Bau, Indonesia | ICAO: WAWB | -5.486880, 122.569000
+BUX  Bunia Airport, Bunia, Congo (Kinshasa) | ICAO: FZKA | 1.565720, 30.220800
+BUY  Bunbury Airport, Bunbury, Australia | ICAO: YBUN | -33.378300, 115.677002
+BUZ  Bushehr Airport, Bushehr, Iran | ICAO: OIBB | 28.944799, 50.834599
+BVA  Paris Beauvais Tillé Airport, Beauvais, France | ICAO: LFOB | 49.454399, 2.112780
+BVB  Atlas Brasil Cantanhede Airport, Boa Vista, Brazil | ICAO: SBBV | 2.841389, -60.692223
+BVC  Rabil Airport, Boa Vista, Cape Verde | ICAO: GVBA | 16.136499, -22.888901
+BVE  Brive Souillac Airport, Brive, France | ICAO: LFSL | 45.039722, 1.485556
+BVG  Berlevåg Airport, Berlevag, Norway | ICAO: ENBV | 70.871399, 29.034201
+BVH  Brigadeiro Camarão Airport, Vilhena, Brazil | ICAO: SBVH | -12.694400, -60.098301
+BVI  Birdsville Airport, Birdsville, Australia | ICAO: YBDV | -25.897499, 139.348007
+BVS  Breves Airport, Breves, Brazil | ICAO: SNVS | -1.636530, -50.443600
+BVY  Beverly Municipal Airport, Beverly, United States | ICAO: KBVY | 42.584202, -70.916496
+BWA  Gautam Buddha Airport, Bhairawa, Nepal | ICAO: VNBW | 27.505685, 83.416293
+BWB  Barrow Island Airport, Barrow Island, Australia | ICAO: YBWX | -20.864401, 115.405998
+BWE  Braunschweig-Wolfsburg Airport, Braunschweig, Germany | ICAO: EDVE | 52.319199, 10.556100
+BWF  Barrow Walney Island Airport, Barrow Island, United Kingdom | ICAO: EGNL | 54.128611, -3.267500
+BWG  Bowling Green Warren County Regional Airport, Bowling Green, United States | ICAO: KBWG | 36.964500, -86.419701
+BWH  Butterworth Airport, Butterworth, Malaysia | ICAO: WMKB | 5.465920, 100.390999
+BWI  Baltimore/Washington International Thurgood Marshall Airport, Baltimore, United States | ICAO: KBWI | 39.175400, -76.668297
+113 airports, 127 nodes visited
+> remove AEY
+Before deleting AEY:
+Level 0: GKA
+Level 1: AEY MAG
+Level 2: AAE EGS HGU POM
+Deleted AEY (case D3: two children; replacement AFA)
+After:
+Level 0: GKA
+Level 1: AFA MAG
+Level 2: AAE EGS HGU POM
+validate: OK
+> validate
+validate: OK
+> add QQQ "Xiaoxing Tong Airport" "Shanghai" "China" ZQQQ 31.2304 121.4737
+Added QQQ  validate: OK
+> find QQQ
+Path: GKA -> MAG -> POM -> WWK -> UAK -> SFJ -> RKV -> QLD -> REB -> QXH -> QLF -> QUY -> QNJ -> QPA -> QRO -> QPD -> QPS -> QRC -> QRA -> QPW -> QQT -> QQQ (comparisons: 22)
+QQQ  Xiaoxing Tong Airport, Shanghai, China | ICAO: ZQQQ | 31.230400, 121.473700
+> remove QQQ
+Before deleting QQQ:
+Level 0: GKA
+Level 1: AFA MAG
+Level 2: AAE EGS HGU POM
+Deleted QQQ (case D1: leaf)
+After:
+Level 0: GKA
+Level 1: AFA MAG
+Level 2: AAE EGS HGU POM
+validate: OK
+> save docs/demo.preorder
+Saved 6071 preorder codes to docs/demo.preorder (+ .records.csv sidecar)
+> load docs/demo.preorder
+Loaded 6071 airports (0 lines skipped: no IATA code). Duplicates: 0
+Same shape as previous tree: yes
+Airports: 6071  Height: 177  Average depth: 18.3238
+Countries: 235  United States: 1251
+> rebalance
+Airports: 6071  Height: 12  Average depth: 10.6529
+Countries: 235  United States: 1251
+validate: OK
+> quit

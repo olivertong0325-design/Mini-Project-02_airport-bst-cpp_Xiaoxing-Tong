@@ -1,0 +1,39 @@
+{
+  "total_rows": 7698,
+  "missing_iata": 1626,
+  "loaded": 6072,
+  "unique_codes": 6072,
+  "countries": 235,
+  "united_states": 1251,
+  "alphanumeric_exception": [
+    "DU9"
+  ],
+  "minimum": "AAA",
+  "maximum": "ZZV",
+  "range_BOS_BWI": 113,
+  "file_order_height": 177,
+  "file_order_depth_sum": 111259,
+  "file_order_average_depth": 18.32328722002635,
+  "deepest_code": "YZR",
+  "csv_same_nonmissing_key_order": true,
+  "early_canadian_block": {
+    "retained_record_positions_1_based": [
+      21,
+      201
+    ],
+    "size": 181,
+    "all_canada": true,
+    "adjacent_inversions": [
+      [
+        "YZS",
+        "YDA"
+      ]
+    ],
+    "first_code": "YAM",
+    "last_code": "ZFM"
+  },
+  "sha256": {
+    "airports.dat": "9387cdb38df5bd664da823f8ccb69fdd9b33a1888f5b7cca09c34a3cd9ff59f9",
+    "airports.csv": "7b5cf59ebf707f2229b7c42dea44dc3c9d623eec5252383b0c9889b186a135dc"
+  }
+}

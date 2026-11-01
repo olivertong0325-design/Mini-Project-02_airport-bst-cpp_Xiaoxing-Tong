@@ -1,0 +1,30 @@
+> load data/airports.dat
+Loaded 6072 airports (1626 lines skipped: no IATA code). Duplicates: 0
+Airports: 6072  Height: 177  Average depth: 18.3233
+Countries: 235  United States: 1251
+> find GKA
+Path: GKA (comparisons: 1)
+GKA  Goroka Airport, Goroka, Papua New Guinea | ICAO: AYGA | -6.081690, 145.391998
+> find AAC
+Path: GKA -> AEY -> AAE -> AAA -> AAC (comparisons: 5)
+AAC  El Arish International Airport, El Arish, Egypt | ICAO: HEAR | 31.073299, 33.835800
+> find YZR
+Path: GKA -> MAG -> POM -> WWK -> YAM -> YAY -> YAZ -> YBB -> YBC -> YBG -> YBK -> YBL -> YBR -> YCB -> YCD -> YCG -> YCH -> YCL -> YCO -> YCT -> YCW -> YCY -> YZS -> YDA -> YDB -> YDF -> YDL -> YDN -> YDQ -> YEG -> YEK -> YEN -> YET -> YEU -> YEV -> YFB -> YFC -> YFE -> YFO -> YFR -> YFS -> YGK -> YGL -> YGP -> YGQ -> YGR -> YHB -> YHD -> YHI -> YHK -> YHM -> YHU -> YHY -> YHZ -> YIB -> YIO -> YJN -> YJT -> YKA -> YKF -> YKL -> YKY -> YKZ -> YLD -> YLJ -> YLL -> YLT -> YLW -> YMA -> YMJ -> YMM -> YMO -> YMW -> YMX -> YNA -> YND -> YNM -> YOC -> YOD -> YOJ -> YOW -> YPA -> YPE -> YPG -> YPL -> YPN -> YPQ -> YPR -> YPY -> YQA -> YQB -> YQF -> YQG -> YQH -> YQK -> YQL -> YQM -> YQQ -> YQR -> YQT -> YQU -> YQV -> YQW -> YQX -> YQY -> YQZ -> YRB -> YRI -> YRJ -> YRM -> YRT -> YSB -> YSC -> YSJ -> YSM -> YSR -> YSU -> YSY -> YTE -> YTH -> YTR -> YTS -> YTZ -> YUB -> YUL -> YUT -> YUX -> YUY -> YVC -> YVG -> YVM -> YVO -> YVP -> YVQ -> YVR -> YVT -> YVV -> YWA -> YWG -> YWK -> YWL -> YWY -> YXC -> YXD -> YXE -> YXH -> YXJ -> YXL -> YXP -> YXR -> YXS -> YXT -> YXU -> YXX -> YXY -> YYB -> YYC -> YYD -> YYE -> YYF -> YYG -> YYH -> YYJ -> YYL -> YYN -> YYQ -> YYR -> YYT -> YYU -> YYW -> YYY -> YYZ -> YZD -> YZE -> YZF -> YZH -> YZP -> YZR (comparisons: 178)
+YZR  Chris Hadfield Airport, Sarnia, Canada | ICAO: CYZR | 42.999401, -82.308899
+> find XYZ
+Path: GKA -> MAG -> POM -> WWK -> YAM -> XFW -> XGN -> XLS -> XRY -> XVS -> YAI -> YAA -> XYA -> XYE -> (NULL) (comparisons: 14)
+XYZ not found
+> find 000
+Path: GKA -> AEY -> AAE -> AAA -> (NULL) (comparisons: 4)
+000 not found
+> find ZZZ
+Path: GKA -> MAG -> POM -> WWK -> YAM -> YAY -> YAZ -> YBB -> YBC -> YBG -> YBK -> YBL -> YBR -> YCB -> YCD -> YCG -> YCH -> YCL -> YCO -> YCT -> YCW -> YCY -> YZS -> YZT -> YZU -> YZV -> YZW -> YZX -> ZFA -> ZFM -> ZND -> ZQW -> ZSE -> ZVA -> ZWA -> ZZU -> ZZV -> (NULL) (comparisons: 37)
+ZZZ not found
+> min
+AAA  Anaa Airport, Anaa, French Polynesia | ICAO: NTGA | -17.352600, -145.509995
+> max
+ZZV  Zanesville Municipal Airport, Zanesville, United States | ICAO: KZZV | 39.944401, -81.892097
+> find DU9
+Path: GKA -> AEY -> EGS -> BUJ -> DJG -> DJO -> EBM -> DRS -> DUS -> DTM -> DUB -> DTW -> DU9 (comparisons: 13)
+DU9  Dunnville Airport, Dunnville, Canada | ICAO: CDU9 | 42.872200, -79.595802
+> quit

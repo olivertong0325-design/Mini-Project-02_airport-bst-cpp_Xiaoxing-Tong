@@ -1,0 +1,65 @@
+PASS: empty trees, I1-I4, root deletions, D3 successor child, ancestor bounds
+PASS: CSV quotes, commas, CRLF, missing IATA, DU9, duplicates, malformed input
+Search case GKA: found, comparisons=1
+Search case AAC: found, comparisons=5
+Search case YZR: found, comparisons=178
+Search case XYZ: not found, comparisons=14
+Search case 000: not found, comparisons=4
+Search case ZZZ: not found, comparisons=37
+PASS: real data facts, search cases, inorder, pruned range, snapshots, QQQ, rebalance
+
+Delete leaf AAC BEFORE:
+Level 0: GKA
+Level 1: AEY MAG
+Level 2: AAE EGS HGU POM
+AFTER (D1: leaf):
+Level 0: GKA
+Level 1: AEY MAG
+Level 2: AAE EGS HGU POM
+validate: OK
+
+Delete left AAQ BEFORE:
+Level 0: GKA
+Level 1: AEY MAG
+Level 2: AAE EGS HGU POM
+AFTER (D2: only a left child):
+Level 0: GKA
+Level 1: AEY MAG
+Level 2: AAE EGS HGU POM
+validate: OK
+
+Delete right AAA BEFORE:
+Level 0: GKA
+Level 1: AEY MAG
+Level 2: AAE EGS HGU POM
+AFTER (D2: only a right child):
+Level 0: GKA
+Level 1: AEY MAG
+Level 2: AAE EGS HGU POM
+validate: OK
+
+Delete two AEY BEFORE:
+Level 0: GKA
+Level 1: AEY MAG
+Level 2: AAE EGS HGU POM
+AFTER (D3: two children):
+Level 0: GKA
+Level 1: AFA MAG
+Level 2: AAE EGS HGU POM
+validate: OK
+
+Delete root GKA BEFORE:
+Level 0: GKA
+Level 1: AEY MAG
+Level 2: AAE EGS HGU POM
+AFTER (D3: two children):
+Level 0: GKE
+Level 1: AEY MAG
+Level 2: AAE EGS HGU POM
+validate: OK
+PASS: all five real deletion scenarios with top three levels
+PASS: 6,072-node sorted chain, height 6,071, no recursive stack dependency
+PASS: snapshot failure rollback, missing metadata/files, plain codes, empty snapshots
+PASS: 3,000 mixed insert/delete operations compared with independent std::map oracle
+
+ALL TESTS PASSED: 181370 checks; 45542 explicit post-mutation validations.

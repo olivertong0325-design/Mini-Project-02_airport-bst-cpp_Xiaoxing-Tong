@@ -1,0 +1,11 @@
+load data/airports.dat
+find GKA
+find AAC
+find YZR
+find XYZ
+find 000
+find ZZZ
+min
+max
+find DU9
+quit

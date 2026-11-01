@@ -1,0 +1,6 @@
+10,000 successful searches; seed=2026; median of 7 batches; milliseconds.
+Build order,Height,Average depth,Search ms,Mean comparisons
+File order,177,18.3233,1.0330,19.5816 (checksum=5431565)
+Sorted order,6071,3035.5000,99.4010,3066.5321 (checksum=5431565)
+Balanced,12,10.6532,0.7780,11.6637 (checksum=5431565)
+Random shuffle,28,14.1095,0.8760,15.0730 (checksum=5431565)
