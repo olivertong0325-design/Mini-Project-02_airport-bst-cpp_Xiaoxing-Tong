@@ -1,0 +1,6 @@
+/bin/
+/build/
+/tests/tmp/
+/airports
+/airports.exe
+*.o
