@@ -3,11 +3,7 @@
 **Student:** Xiaoxing Tong  
 **Language:** C++17  
 **Project:** Mini Project 02, Fall 2026  
-**Course in the supplied assignment PDF:** EECE 2560
-
-Start with the [Chinese running guide](docs/guide_zh.md) or the
-[requirements checklist](docs/requirements_checklist.md). This package uses the
-files supplied for Mini Project 02 and was rebuilt and verified on 2026-11-01.
+**Course in the supplied assignment PDF:** EECE 7205
 
 This service looks up airports by their IATA-style code and returns their name,
 city, country, ICAO code and coordinates. It uses a manually implemented binary
